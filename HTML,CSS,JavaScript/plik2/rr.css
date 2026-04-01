@@ -1,0 +1,10 @@
+p::after{
+    content: "ania miałą kota";
+}
+p::before{
+    content: "ala miałą psa";
+}
+p:hover{
+    transform: scaleX(1);
+
+}

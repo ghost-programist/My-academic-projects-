@@ -1,0 +1,17 @@
+form{
+    background: rgb(125, 131, 214);
+    border: 2px solid red;
+    margin: 2%;
+    border-radius: 30px;
+}
+body{
+    background: rgb(230, 248, 200);
+}
+button{
+    color: green;
+    background: darkorange;
+    border: 1px groove gray;
+    padding: 3px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,21 @@
+body {
+    background-color: dimgrey;
+    color: rgb(208, 207, 207)}
+#div {
+    border-radius: 7px;
+    background: rgb(55, 77, 155);
+    color: azure;
+    border: 3px solid darkorchid;
+}
+img {
+    border-radius: 10px;
+}
+button {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color:darkmagenta;
+}

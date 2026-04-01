@@ -1,0 +1,54 @@
+html {
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+#blok1 {
+    background: ivory;
+    text-align: center;
+    float: left;
+    border-radius: 10px;
+    border: 3px solid aqua;
+    padding: 12%;
+    
+}
+
+img {
+    border-radius: 10%;
+    
+}
+
+#blok2 {
+    background: lightblue;
+    float: right;
+    border-radius: 10px;
+    border: 3px solid aqua;
+    width: 48%;;
+    flex-wrap: nowrap;
+}
+
+.blok2_1 {
+    grid-area: footer;
+    background: lightgreen;
+    border-radius: 10px;
+    border: 3px solid aqua;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+}
+
+.blok2_1:hover {
+     padding: 10px 20px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+#ikonki {
+    filter: invert(24%) 
+}
+.blok2_1>img {
+    width: 35%;
+}
