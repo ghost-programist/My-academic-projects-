@@ -1,0 +1,33 @@
+//
+const btn1 = document.getElementById("btn1")
+const form = document.getElementById("form")
+const input = document.getElementById("input")
+const h1 = document.querySelector("h1")
+btn1.addEventListener('click', function(){ //wykonuje się po kliknięciu elementu
+  console.log("zrób coś")
+}
+)
+form.addEventListener('submit', function(e){ //wykonuje się po wysłaniu formularza
+  if(input.value.length < 10){
+    e.preventDefault() //zapobiega przeładowaniu formularza i strony
+    console.error('hasło za krótkie');
+  }else{
+    console.log("formularz wysłany")
+  }
+})
+input.addEventListener('input', function(){ //Wykonuje się po wprowadzenie znaku do formularza
+  let pass = input.value // .value zwraca wartość wpisaną w pole input/box/area
+  if(pass.length < 10){
+    input.style.color = "red"
+  }else{
+    input.style.color = "green"
+  }
+})
+
+//zadania
+
+//1. Stwórz formularz rejestracji i logowania z prostą walidacją danych.
+//rejestracja: login, mail, username, hasło, hasło 2, akceptacja regulaminu
+//login: login, hasło, zostań zalogowany
+//walidacja: długość hasła, @ w mailu, długość login, username, poprawność haseł w rejestracji
+//podstawowy css

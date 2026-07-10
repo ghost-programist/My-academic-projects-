@@ -1,0 +1,170 @@
+Zadanie 1 – Kalkulator z wyborem działania
+
+Utwórz stronę kalkulator.php.
+
+Wymagania
+
+Formularz zawiera:
+pole liczba1
+pole liczba2
+listę rozwijaną z działaniami:
+dodawanie
+odejmowanie
+mnożenie
+dzielenie
+Po wysłaniu formularza PHP oblicza wynik i wyświetla:
+Wynik działania: X
+
+Jeśli użytkownik dzieli przez 0, wyświetl komunikat:
+Nie można dzielić przez 0
+
+Zadanie 2 – Liczby parzyste z zakresu
+
+Utwórz formularz liczby.php.
+
+Wymagania
+
+Formularz przyjmuje:
+liczbę początkową
+liczbę końcową
+Program PHP:
+wyświetla wszystkie liczby parzyste z tego zakresu
+oblicza ich sumę
+Przykład:
+
+Liczby parzyste:
+
+2 4 6 8
+
+Suma: 20
+
+Zadanie 3 – Statystyka ocen
+
+Utwórz tablicę ocen:
+
+5, 4, 3, 5, 2, 4, 5
+
+Program powinien:
+
+Wyświetlić wszystkie oceny.
+Obliczyć:
+średnią
+najwyższą ocenę
+najniższą ocenę.
+Przykład:
+
+Średnia: 4
+
+Najwyższa ocena: 5
+
+Najniższa ocena: 2
+
+Minimum 10 ocen w tablicy
+
+Zadanie 4 – Prosty system logowania
+
+Utwórz formularz logowanie.php.
+
+Formularz zawiera:
+
+login
+hasło
+W PHP zapisz dane:
+
+login: admin
+
+hasło: (login_w_systemie_moodle)
+
+Program:
+
+Jeśli dane są poprawne:
+
+Zalogowano poprawnie
+
+Jeśli nie:
+
+Błędny login lub hasło
+
+Zadanie 5 – Zliczanie samogłosek
+
+Utwórz formularz z polem tekstowym.
+
+Program PHP ma:
+
+policzyć ile w tekście jest samogłosek:
+a e i o u y ą ę
+
+Przykład:
+
+Tekst:
+
+informatyka
+
+Wynik:
+
+Liczba samogłosek: 5
+
+Zadania z gwiazdką:
+
+Zadanie 6 – Mini baza danych (PHP + MySQL)
+
+Utwórz bazę danych:
+
+szkola
+
+Tabela:
+
+uczniowie
+
+Pola:
+
+id
+
+imie
+
+nazwisko
+
+klasa
+
+Zadanie
+
+Strona uczniowie.php ma:
+
+połączyć się z bazą danych
+pobrać wszystkich uczniów
+wyświetlić ich w tabeli HTML.
+Przykład:
+
+ID
+
+Imię
+
+Nazwisko
+
+Klasa
+
+1
+
+Jan
+
+Kowalski
+
+2aT
+
+Zadanie 7 – Formularz dodawania do bazy
+
+Rozszerz poprzednie zadanie.
+
+Dodaj formularz:
+
+Imię
+
+Nazwisko
+
+Klasa
+
+Po wysłaniu formularza dane mają zostać zapisane do bazy.
+
+Wyświetl komunikat:
+
+Uczeń został dodany

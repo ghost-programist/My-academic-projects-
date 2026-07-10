@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz zamówienia</title>
+    <link rel="stylesheet" href="zam.css">
+</head>
+<body>
+    <div class="blok">
+        <h1>Formularz zamówienia</h1>
+        <form action="zamowienie.php" method="POST">
+            <label for="imie">Imię i nazwisko:</label>
+            <input type="text" id="imie" name="imie" required>
+
+            <label for="email">Adres e-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="produkt">Wybierz produkt:</label>
+            <select id="produkt" name="produkt" required>
+
+                <option value="Książka">Książka - 45 zł</option>
+                <option value="Notes">Notes - 15 zł</option>
+                <option value="Długopis">Długopis - 5 zł</option>
+            </select>
+
+            <label for="ilosc">Ilość:</label>
+            <input type="number" id="ilosc" name="ilosc" min="1" value="1" required>
+
+            <button type="submit">Złóż zamówienie</button>
+        </form>
+    </div>
+</body>
+</html>

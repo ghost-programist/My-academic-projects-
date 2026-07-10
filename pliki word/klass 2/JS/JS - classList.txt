@@ -1,0 +1,26 @@
+//Classlist
+
+const btn = document.getElementById("btn")
+
+// btn.addEventListener("click", ()=>{
+//     btn.classList.add("btn1")
+// })
+
+// btn.addEventListener("click", ()=>{
+//     btn.classList.remove("btn1")
+// })
+
+// btn.addEventListener("click", ()=>{
+//     btn.classList.toggle("btn1")
+// })
+
+
+//Zadania
+/*
+1. Po kliknięciu w przycisk zmienia kolor i rozmiar tekstu.
+2. Po kliknięciu w przycisk pokazuje/ukrywa element.
+3. Po wpisaniu tekstu w input pokazuje/ukrywa wiadomość o nieprawidłowym haśle
+4. Po kliknięciu w przycisk zmienia tryb strony (jasny/ciemny)
+5. Po kliknięciu w przycisk zmienia układ strony na pionowy/poziomy.
+
+*/

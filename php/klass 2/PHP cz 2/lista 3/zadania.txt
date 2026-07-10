@@ -1,0 +1,89 @@
+Zadanie 1 – Obsługa pliku tekstowego
+
+Utwórz plik: dane.txt
+
+Program PHP powinien:
+
+zapisać do pliku tekst z formularza
+odczytać zawartość pliku
+wyświetlić ją na stronie.
+Zadanie 2– Mini system komentarzy
+
+Strona zawiera formularz: 
+
+Imię
+Komentarz
+
+Program:
+
+zapisuje komentarz do pliku komentarze.txt
+wyświetla wszystkie komentarze.
+Przykład:
+
+Jan: Super strona
+Anna: Bardzo pomocne
+
+Zadanie 3 – Wyszukiwanie w tablicy
+
+Tablica produktów:
+
+Laptop
+Mysz
+Klawiatura
+Monitor
+Drukarka
+Formularz zawiera pole szukaj.
+Program:
+
+sprawdza czy produkt istnieje w tablicy.
+
+Wynik:
+
+Produkt znaleziony
+
+lub
+
+Produkt nie istnieje
+
+Zadanie 4 – Lista uczniów (PHP + MySQL)
+
+Utwórz bazę danych: szkola
+
+Tabela: uczniowie
+
+Pola:
+
+id
+imie
+nazwisko
+klasa
+Program:
+
+wyświetla uczniów w tabeli
+umożliwia usuwanie ucznia
+umożliwia dodawanie ucznia
+Zadanie 5 – Ranking punktów
+
+Tablica wyników:
+
+Anna 120
+
+Jan 95
+
+Kasia 140
+
+Piotr 110
+
+Program powinien:
+
+posortować wyniki malejąco
+
+wyświetlić ranking:
+
+1. Kasia - 140
+
+2. Anna - 120
+
+3. Piotr - 110
+
+4. Jan - 95

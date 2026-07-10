@@ -1,0 +1,94 @@
+Zadanie 1 – Obliczanie pola prostokąta
+
+Utwórz stronę HTML z dwoma polami tekstowymi:
+
+szerokość
+wysokość
+Po kliknięciu przycisku Oblicz skrypt JavaScript powinien:
+
+Pobierać wartości z pól.
+Obliczyć pole prostokąta.
+Wyświetlić wynik w elemencie <p>.
+Przykładowy efekt:
+„Pole prostokąta wynosi: 24”
+
+Zadanie 2 – Sprawdzenie pełnoletności
+
+Na stronie znajduje się pole do wpisania wieku oraz przycisk Sprawdź.
+
+Skrypt powinien:
+
+jeśli wiek ≥ 18 → wyświetlić:
+„Jesteś pełnoletni”
+jeśli wiek < 18 → wyświetlić:
+„Nie jesteś pełnoletni”
+Zadanie 3 – Licznik znaków
+
+Utwórz formularz z polem <textarea>.
+
+Skrypt powinien:
+
+zliczać liczbę wpisanych znaków
+wyświetlać wynik pod polem tekstowym
+Przykład:
+„Liczba znaków: 56”
+
+Zadanie 4 – Zmiana koloru tła
+
+Na stronie znajduje się przycisk Zmień kolor.
+
+Po kliknięciu:
+
+tło strony zmienia się na losowy kolor z listy:
+czerwony
+zielony
+niebieski
+żółty
+Zadanie 5 – Prosty kalkulator
+
+Na stronie są:
+
+dwa pola liczbowe
+przyciski:
+dodawanie
+odejmowanie
+mnożenie
+dzielenie
+Skrypt powinien:
+
+Pobierać liczby.
+Wykonywać wybraną operację.
+Wyświetlać wynik.
+Zadanie 6 – Walidacja formularza
+
+Utwórz formularz z polami:
+
+imię
+nazwisko
+email
+hasło
+Po kliknięciu Wyślij skrypt powinien sprawdzić:
+
+czy wszystkie pola są wypełnione
+czy email zawiera znak @
+czy hasło ma min. 6 znaków
+Jeśli coś jest błędne → wyświetl komunikat.
+
+Zadanie 7 – Galeria zdjęć
+
+Na stronie znajduje się:
+
+jedno duże zdjęcie
+5 miniatur
+Po kliknięciu miniatury:
+
+duże zdjęcie zmienia się na wybrane.
+Zadanie 8 – Lista zadań (To-Do)
+
+Na stronie znajduje się:
+
+pole tekstowe
+przycisk Dodaj
+Po kliknięciu:
+
+zadanie zostaje dodane do listy <ul>.

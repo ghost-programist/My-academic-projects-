@@ -1,0 +1,36 @@
+const input = document.querySelector("input")
+const btn1 = document.getElementById("btn1")
+const btn2 = document.getElementById("btn2")
+
+let names = ""
+
+btn1.addEventListener("click", ()=>{
+    //Dodanie elementu do localStorage localStorage.setItem(klucz, wartość)
+    localStorage.setItem('imie', input.value)
+    //Pobranie elementu z localStorage
+    console.warn(localStorage.getItem('imie'))
+    //Usunięcie elementu z localStorage
+    localStorage.removeItem('imie')
+    //Wyczyszczenie localStorage localStorage.clear()
+})
+
+let lista = ['abc', 'def', 'ghj']
+//Zmiana tablicy/obiektu na string
+let lista2 = JSON.stringify(lista)
+localStorage.setItem('lista', lista2)
+console.warn(typeof(localStorage.getItem('lista')))
+//Zmiana stringa na obiekt/liste
+let lista3 = JSON.parse(localStorage.getItem('lista'))
+
+//localStorage nie działa na obiektach, działa tylko na elementach typu string/int/bool
+//Operacje na 'obiektach' zapisanych w localStorage robimy poprzez pobranie elementu, lokalną jego edycje i odesłanie nowej wersji do localStorage
+
+/**ZADANIA
+ * 1. Dodaj input umożliwiający dodanie nicku/imienia do localStorage (wiele elementów w jednych LS)
+ * 2. Wyświetl wszystkie nazwy z localStorage po odświeżeniu strony (wiele elementów w jednych LS)
+ * 3. Dodaj możliwość usunięcia nazwy/nicku z localStorage
+ * 4. Dodaj CSS dla dark mode strony, przycisk do przełączenia trybu a następnie spraw, aby localStorage zapamiętał tryb
+ * 5. Przenieś listę tasków z poprzednich zajęć do localStorage
+ * 6. Zmień funkcję render aby brała tablicę z localStorage
+ * 7. Zmień przycisk usunięcia aby usuwał element z localStorage
+ */

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 3</title>
+</head>
+<body>
+    <form action="">
+    <textarea id="text"></textarea>
+    <p id="p">Liczba znaków: 0</p>
+    </form>
+    <script>
+        let text = document.getElementById("text")
+        let p = document.getElementById("p")
+            
+        
+            text.addEventListener("input", () => {
+                
+                p.textContent = "Liczba znaków: " + text.value.length
+            })
+        
+        
+    </script>
+</body>
+</html>

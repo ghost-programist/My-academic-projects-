@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>zadanie 6</title>
+</head>
+<body>
+    <form action="" >
+    <label for="imie">imie: </label>
+    <input type="text" id="imie"><br>
+    <label for="nazwisko">nazwisko: </label>
+    <input type="text" id="nazwisko"><br>
+    <label for="email">email: </label>
+    <input type="email" id="email"><br>
+    <label for="haslo">haslo: </label>
+    <input type="password" id="haslo"><br>
+    </form>
+    <button id="btn">Wyślij</button>
+
+    <script>
+        
+        const btn = document.getElementById("btn")
+        btn.addEventListener("click", () => {
+            const imie = document.getElementById("imie").value
+        const nazwisko = document.getElementById("nazwisko").value
+        const email = document.getElementById("email").value
+        const haslo = document.getElementById("haslo").value
+            
+            if (imie == "" || nazwisko == "" || email == "" || haslo == "") {
+                let p = document.createElement("p")
+                p.textContent = "wypełnij wszystkie inputy"
+                document.body.appendChild(p)
+            }
+             if(email.indexOf("@") == -1){
+                let p = document.createElement("p")
+                p.textContent = "nie ma @ w email"
+                document.body.appendChild(p)
+            }
+            if (haslo.length < 6 ) {
+                let p = document.createElement("p")
+                p.textContent = "hasło powinno być durzej 6"
+                document.body.appendChild(p)
+            }
+          
+        })
+    </script>
+</body>
+</html>

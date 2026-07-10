@@ -1,0 +1,80 @@
+//Obiekty
+let abc = [1,2,3] //lista
+let uczen = {imie: 'jan', nazwisko:'kowalski'}//obiekt
+//zmiana/dodanie właściwości
+uczen.nazwisko = 'nowak' // zmiana
+uczen.wiek = 15 // dodanie
+
+let uczniowie = [
+  {imie:'jan', nazwisko:'nowak'},
+  {imie:'adam', nazwisko:'kowalski'},
+  {imie:'anna', nazwisko:'nowak'}
+]
+//dodanie obiektu
+uczniowie[3] = {imie:'alicja', nazwisko:'kowalska'} //konkretne miejsce
+uczniowie.push({imie:'marek', nazwisko:'markowski'}) //na koniec
+
+//iteracja po obiekcie(przejście po elementach)
+for(let uczen of uczniowie){
+  console.log(uczen.imie +" " +uczen.nazwisko)
+  uczen.wiek = 18
+  console.log(uczen.wiek)
+}
+
+for(i = 0; i < uczniowie.length; i++){
+  console.log(uczniowie[i].wiek)
+}
+
+//metody(funkcja w obiekcie)
+let kot = {
+  imie:"kot",
+  glos: function glos(){
+    console.log("meow")
+  }
+}
+kot.mleko = function pij(){
+  console.log("abc")
+}
+//wywołanie metod
+kot.glos()
+kot.mleko()
+
+uczen.urodziny = 
+function urodziny(){
+  this.wiek +=1
+}
+
+//Zadania
+/*
+1. Utwórz obiekt osoba z polami: imie, wiek. Wyświetl dane w konsoli.
+
+2. Dodaj do obiektu osoba funkcję przywitaj(), która wypisze:
+„Cześć, mam na imię …”.
+
+3. Stwórz obiekt samochod z polami: marka, model, rok. Dodaj metodę opis() zwracającą opis auta.
+
+4. Utwórz obiekt kalkulator z metodami: dodaj(a,b) i odejmij(a,b). Sprawdź działanie.
+
+5. Do istniejącego obiektu osoba dodaj metodę ileLat().
+
+6. Stwórz obiekt produkt (nazwa, cena). Dodaj metodę pokazCene() wyświetlającą cenę produktu.
+
+7. Utwórz obiekt kontoBankowe z właściwościami: właściciel, saldo. Dodaj metody:
+-wplata(kwota)
+-wyplata(kwota)
+-saldo()
+
+8. Stwórz obiekt ksiazka z polami: tytul, autor. Dodaj metodę opisKsiazki().
+
+9. Utwórz obiekt telefon i metodę zadzwon(numer) przyjmującą parametr.
+
+10. Napisz obiekt uczen z tablicą ocen i metodą sredniaOcen() liczącą średnią.
+
+11. Stwórz dwa obiekty pracownik1 i pracownik2 z polami pensjaMsc, imie, nazwisko z metodą pensjaRoczna() (miesięczna pensja × 12).
+
+12. Utwórz obiekt licznik z polem wartosc i metodami:
+-zwieksz()
+-zmniejsz()
+-pokaz()
+
+*/

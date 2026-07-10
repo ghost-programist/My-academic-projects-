@@ -1,0 +1,43 @@
+//Regex zapisujemy między ukośnikami: /wzorzec/
+//Przykład sprawdzenia czy tekst zawiera dużą literę:
+
+const password = "Haslo123";
+
+if (/[A-Z]/.test(password)) {
+    console.log("Hasło zawiera dużą literę");
+}
+/*
+Najczęściej używane wzorce
+
+[A-Z]  → duże litery
+[a-z]  → małe litery
+[0-9]  → cyfry
+.      → dowolny znak
++      → jeden lub więcej
+*      → zero lub więcej
+[^]    → zakaz znaków [^A-Z]
+^      → początek tekstu ^A   → Adam
+$      → koniec tekstu m$ →Adam
+\s     → whitespace
+\S     → nie whitespace
+{ile}  → dokładnie znaków
+{min, }→ minimul znaków
+{min, max}→ zakres ilości znaków
+Przykład – walidacja emaila
+*/
+const email = "jan@gmail.com";
+const regex = /\S+@\S+\.\S+/;
+
+if(regex.test(email)){
+    console.log("Email poprawny");
+}else{
+    console.log("Błąd emaila");
+}
+/*
+Ćwiczenia
+
+1. Sprawdź czy hasło zawiera przynajmniej jedną dużą literę.
+2. Sprawdź czy tekst zawiera cyfrę.
+3. Sprawdź czy email zawiera znak @.
+4. Napisz regex sprawdzający czy hasło ma minimum 6 znaków.
+*/

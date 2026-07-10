@@ -1,0 +1,85 @@
+Zad 1 Licznik odwiedzin strony
+
+Utwórz plik licznik.txt.
+
+Program PHP ma:
+
+odczytać aktualną liczbę odwiedzin
+zwiększyć ją o 1
+zapisać ponownie do pliku
+wyświetlić:
+Liczba odwiedzin: X
+
+Zad 2 Rejestracja użytkownika z walidacją
+
+Utwórz stronę rejestracja.php.
+
+Formularz
+
+• login
+• email
+• hasło
+• powtórz hasło
+Wymagania
+
+Program powinien sprawdzić:
+
+login minimum 5 znaków
+email musi zawierać @
+hasło minimum 8 znaków
+hasła muszą być identyczne
+Jeśli wszystko jest poprawne: Rejestracja zakończona sukcesem
+
+Jeśli nie: Błąd formularza
+
+ 
+ 
+Zad 3 – System sesji
+
+Utwórz dwa pliki:
+
+login.php
+
+panel.php
+
+Wymagania
+
+Dane logowania:
+
+login: admin
+
+hasło: (imię_i_nazwisko)
+
+Po poprawnym logowaniu ustaw sesję użytkownika
+Strona panel.php dostępna tylko dla zalogowanego
+Jeśli użytkownik nie jest zalogowany: Brak dostępu
+ 
+ 
+Zad 4 – Licznik słów i znaków
+
+Utwórz formularz z polem textarea.
+
+Program PHP ma:
+
+• policzyć liczbę znaków
+• policzyć liczbę słów
+• policzyć liczbę samogłosek
+Wynik:
+
+Znaki: X
+
+Słowa: X
+
+Samogłoski: X
+
+ 
+ 
+Zad 5 – Sortowanie tablicy
+
+Utwórz tablicę do której wpisane zostaną liczby (minimum 8) pobranych od użytkownika
+
+Program powinien:
+
+wyświetlić liczby
+posortować rosnąco i wyświetlić
+posortować malejąco i wyświetlić

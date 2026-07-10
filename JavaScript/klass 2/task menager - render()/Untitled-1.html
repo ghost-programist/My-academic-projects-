@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        body{
+            background-color: rgb(222, 240, 240);
+        }
+        #tasks{
+            background-color: rgba(255,255,255,0.6);
+            border-radius: 10px;
+            border: 2px solid gold;
+            min-height: 400px;
+            width: 300px;
+        }
+        #tasks h1{
+        text-align: center;
+        }
+        input{
+            padding: 0.3%;
+           
+        }
+        button{
+            padding: 0.3%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id = "tasks">
+    <h1 id="h1">Taski</h1>
+    <ol id="taskList">
+
+    </ol>
+    </div><br>
+    <input id="input" type="text"> </input>
+    <button id="btn" onclick="addTask()">Dodaj</button>
+    <script src="js.js"></script>
+</body>
+</html>

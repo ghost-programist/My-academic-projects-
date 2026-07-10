@@ -1,0 +1,71 @@
+//Listy, pętla for, for...of, while, do...while
+
+let lista = [1, 2, 3, "adam", true]
+let assoc = {imie: "adam", wiek: 17}
+lista[3] = 15
+lista[5] = 60
+lista.push(80)
+lista.unshift(12)
+lista[9] = 50
+let x = lista.indexOf(50)
+let z = lista.length
+
+// for
+
+for(i=1; i <= 10;i++){
+  console.log(i)
+}
+
+for(i=0; i<lista.length;i++){
+  console.log(lista[i])
+}
+
+for(i=0; i<10; i++){
+  console.log(i)
+  for(z=0; z<5;z++){
+    console.log(z)
+  }
+}
+
+// for...of
+
+for(let element of lista){
+  console.log(element)
+}
+
+//while
+let a = 5
+while(a !=0){
+  console.log(a)
+  a--
+}
+
+//do...while
+let b = 5
+do{
+  console.log(b)
+  b--
+}while(b<5 && b>-10)
+
+let rand = Math.random()*100 // Lisczba z zakresu 0..1 * 100 => zakres 1...100
+console.log(Math.floor(rand)) // zaokrąglenie w dół
+console.log(rand)
+console.log(Math.ceil(rand)) // zaokrąglenie w góre
+
+//zadania
+/*
+1.Wypisz w konsoli liczby od 1 do 20 ale tylko parzyste
+2.Oblicz sumę liczb od 1 do 100 używając pętli for
+3.Wypisz w konsoli tabliczkę mnożenia dla dowolnej liczby(x1-10)
+4.Dla tablicy:
+const names = ['Ania', 'Bartek', 'Michal', 'Adam', 'Maciek']
+Wypisz każde imie w nowej linii
+5.Stwórz tablice 30 liczb i wypisz tylko te większe od 10
+6.Dla tablicy names policz i wypisz ile znaków ma każde imie
+7.Wypisz liczby od 10 do 1 za pomocą pętli while
+8.Losuj liczbę z zakresu 1-10 tak długo aż nie wylosuje liczby 4. Podaj ile prób było potrzebnych
+9.Zaczynając od liczby 1 podwajaj ją, aż będzie większa niż 100. Wypisz wszystkie liczby
+10.Wypisz liczby od 1 do 10 używając do...while
+11.Zasymuluj wpisywanie hasła, pętla ma wykonać się przynajmniej raz, do czasu gdy user nie wpisze 'admin'
+12.Zasymuluj rzut kością, wypisuj wartości do czasu wypadnięcia 6 oczek
+*/

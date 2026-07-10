@@ -1,0 +1,21 @@
+body {
+    background-color: lightgray;
+    font-family:sans-serif;
+}
+#poczatek {
+    text-align: center;
+    
+}
+.zdjecia {
+    width: 250px;
+    height: auto;
+}
+button {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color:darkmagenta;
+}

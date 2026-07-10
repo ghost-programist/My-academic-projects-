@@ -1,0 +1,54 @@
+//funkcje - funkcja to blok kodu ktĂłry definiujemy raz,
+// a moĹźemy go uĹźyÄ nieograniczonÄ liczbÄ razy.
+
+function funkcja1(){
+    console.log('hello')
+}
+
+function add(a, b){
+    console.log(a+b)
+    return a+b
+}
+
+//switch/case
+let dzieĹ = Number(prompt())
+switch(dzieĹ){
+    case 1: // if(dzieĹ === 1)
+        console.log(add(1,21))
+        break
+    case 2:
+        console.log('wt')
+        break
+    case 3:
+        console.log('sr')
+        break
+    case 4:
+        console.log('czw')
+        break
+    case 5:
+        console.log('pt')
+        break
+    case 6:
+        console.log('sb')
+        break
+    case 7:
+        console.log('nd')
+        break
+    default:
+        console.log('8+')
+        break
+}
+
+//zadania
+/*
+1. Funkcja onclick na wypisanie imienia podanego przez prompt
+2. Funkcja  wypisujÄca wynik dziaĹania przyjmujÄca 3 parametry(a,b,znak)
+3. Funkcja  zwracajÄca pole kwadratu
+4. Funkcja zwracajÄca pole koĹa
+5. Fukcja zwracajÄca liczbÄ podanÄ przez uĹźytkownika do potÄgi 3
+6. funkcja zwracajÄca pierwiastek z liczby podanej przez uĹźytkownika
+7. funkcja switch/case zamieniajÄca ocene na jej sĹowny odpowiednik
+8. funkcja switch/case zwracajÄca nazwÄ miesiÄca po podaniu jego numeru
+9. funkcja switch/case pozwalajÄca wybraÄ zadanie do wykonania wraz
+    ze skrĂłconymi poleceniami
+*/

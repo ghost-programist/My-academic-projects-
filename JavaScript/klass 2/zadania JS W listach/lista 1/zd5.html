@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie 5</title>
+</head>
+<body>
+    <input type="number" id="inp1">
+    <input type="number" id="inp2">
+    <button  onclick="dod()">dodawanie</button>
+    <button onclick="od()">odejmowanie</button>
+    <button onclick="mnoz()">mnożenie</button>
+    <button onclick="dziel()">dzielenie</button>
+    <p id="p"></p>
+    <script>
+
+        function dod(){
+            let inp1 = Number(document.getElementById("inp1").value)
+        let inp2 = Number(document.getElementById("inp2").value)
+            let p = document.getElementById("p")
+            let c = inp1 + inp2
+            p.innerHTML = c
+        }
+
+        function od(){
+            let inp1 = Number(document.getElementById("inp1").value)
+        let inp2 = Number(document.getElementById("inp2").value)
+            let p = document.getElementById("p")
+            let c = inp1 - inp2
+            p.innerHTML = c
+        }
+
+        function mnoz(){
+            let inp1 = Number(document.getElementById("inp1").value)
+        let inp2 = Number(document.getElementById("inp2").value)
+            let p = document.getElementById("p")
+            let c = inp1 * inp2
+            p.innerHTML = c
+        }
+
+        function dziel(){
+            let inp1 = Number(document.getElementById("inp1").value)
+        let inp2 = Number(document.getElementById("inp2").value)
+            let p = document.getElementById("p")
+            let c = inp1 / inp2
+            p.innerHTML = c
+        }
+    </script>
+    
+</body>
+</html>

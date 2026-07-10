@@ -1,0 +1,108 @@
+// jednoliniowy comment/komentarz
+
+// /*
+// comment/komentarz
+// blokowy/
+// wieloliniowy
+// */
+
+//zmienne
+// var  ||  let  || const
+
+var x = 5;
+x = 100;
+var y
+console.log(x)
+
+let z = 20;
+let q
+console.log(z);
+
+const a = 15;
+//const b;   zmienna const nie moĹźe byÄ zadeklarowana bez przypisania wartoĹci
+
+
+//Typy danych
+// int(liczba)  || string(ciÄg znakĂłw) || bool(true/false)
+let liczba = 10;
+let znaki = 'ania ma kota';
+let prawda = true;
+let falsz = false;
+
+//Operatory arytmetyczne
+//Dodawanie
+x = 1+1
+x = x+10
+x += 10
+x++
+napis = "a" + "b"
+napis2 = "20"+10
+console.log(napis2)
+//Odejmowanie
+x = 5-1
+x -= 5
+x = x-5
+x--
+//Dzielenie
+x = 5/5
+x = x/5
+x /= 5
+y=10
+y %= 3 //reszta z dzielenia
+//MnoĹźenie
+x = 5*5
+x = x*5
+x *= 5
+x = 5**2 //potÄgowanie
+console.error('error')
+console.warn('warn')
+
+//prompt + typeof
+x = prompt('podaj x')
+console.log(x, typeof x)
+y = Number(prompt("podaj y:"))
+console.log(9.7, typeof y)
+
+//if else
+let u = prompt()
+if(u === "1"){
+    alert(1)
+}
+else if(u === "2"){
+    alert(2)
+}
+else{
+    alert("pudĹo")
+}
+
+//Operatory logiczne
+
+// =     przypisanie
+// ==    porĂłwnanie wartoĹci
+// ===   porĂłwnanie typu i wartoĹci
+// >     wiÄksze niĹź
+// <     mniejsze niĹź
+// >=    wiÄksze lub rĂłwne
+// <=    mniejsze lub rĂłwne
+// !=    rĂłĹźne od
+// !     not
+// &&    and
+// ||    or
+
+
+// WyĹwietlanie danych w konsoli przeglÄdarki console.log()
+// WyĹwietlanie alertĂłw w oknie przeglÄdarki alert()/window.alert()
+
+
+
+//zadania
+/*
+1. sprawdzanie peĹnoletnoĹci
+2. liczba dodatnia/ujemna/0
+3. zakres wieku  18lat  65lat
+4. proste hasĹo
+5. proste hasĹo + dĹugoĹÄ hasĹa
+6. liczba parzysta/nieparzystka
+7. quiz (1 pytanie)
+
+*/

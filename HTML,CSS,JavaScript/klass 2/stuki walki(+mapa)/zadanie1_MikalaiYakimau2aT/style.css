@@ -1,0 +1,26 @@
+html {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: rgb(117, 199, 144);
+    font-style:initial;
+    font-family:sans-serif;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+#h3:hover {
+    background-color: rgb(67, 124, 182);
+    color:rgb(25, 231, 52);
+}
+a {
+    color: brown;
+    text-decoration: none;
+}
+button {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 10px;
+}

@@ -1,0 +1,27 @@
+//DOM Document Object Model - Obiektowy Model Dokumentu
+
+document.getElementById("hello").innerHTML = 'Hello <br> User'
+//.innerHTML traktuje wartość jako text + znaczniki HTML
+document.getElementById('hello').innerText
+//.innerText traktuje wartość jako text, znaczniki HTML są przepisywane jako text
+document.querySelector('#hello').innerHTML = "query"
+//querySelector odnosi się do elementów strony tak jak CSS (znacznik, ., #)
+let header = document.getElementById("hello")
+header.innerHTML = "zmienna"
+//'link' do elementu możemy zapisać do zmiennej
+header.style.border = "2px solid black"
+//zadania
+
+/*
+  1. Zrób 2 przyciski (+ i -) oraz licznik jako h1 z wartością początkową 0.
+  Po kliknięciu w przycisk wartość h1 zmienia się o +/- 1.
+
+  2. Dodaj do licznika style: jeżeli wartość jest 10+ to ma kolor zielony,
+  jeżeli -10 to czerwony.
+
+  3. Zrób 3 kwadraty(divy 150x150+border). Po kliknięciu w dany  div zmienia jego
+   kolor na losowy.
+
+  4. Na stronie jest napis Hello World, po kliknięciu w przycisk pobieramy imie przez 
+  prompt i zmieniamy 'World' na imie np Hello Adam
+*/

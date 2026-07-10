@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            height: 250px;
+            width: 250px;
+            border: 1px solid black;
+        }
+        .header{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+    </div>
+    <input type="text" placeholder="Napisz wiadomość">
+    <button>Dodaj</button><br>
+    <input type="text" placeholder="Numer wiadomości">
+    <button>Usuń</button>
+    
+    <script src="js.js"></script>
+</body>
+</html>
+//JS
+//create element
+
+let box = document.getElementById("box")
+const body = document.querySelector("body")
+const inputs = document.querySelectorAll("input")
+const btns = document.querySelectorAll("button")
+const input = inputs[0]
+const input2 = inputs[1]
+const btn = btns[0]
+const btn2 = btns[1]
+
+let header = document.createElement("h1")
+
+header.textContent = "Hello World"
+header.classList.add("header")
+
+
+box.appendChild(header)
+
+//header.remove()
+
+btn.addEventListener("click", ()=>{
+    let p = document.createElement("p")
+    p.textContent = input.value
+    box.appendChild(p)
+    p.addEventListener("click", ()=>{
+        p.remove()
+    })
+})
+
+btn2.addEventListener("click", ()=>{
+    let p = document.querySelectorAll("p")
+    p[input2.value-1].remove()
+})
+//zadanie
+/*
+    Stwórz To Do List na elementach ol/ul i li. Numery taska generowane automatycznie przy dodaniu. Nazwa taska wpisywane w pole input,
+    element listy dodawany po kliknięciu w przycisk lub kliknięciu enter. Możliwość kończenia taska(remove). Zadbaj o wygląd listy i innych elementow(CSS).
+    Po usunięciu elementu listy z listy pierwszej dodaj go do listy2 "ukończone zadania". Zadbaj o wygląd listy2.
+*/
+
+
+
+
